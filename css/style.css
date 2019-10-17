@@ -1,10 +1,18 @@
 
 /* navigation */
-.main-nav {
+header {
   /* box model */
   width: 100%;
   display: flex;
   position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav {
+  /* box model */
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }

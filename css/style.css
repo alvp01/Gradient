@@ -20,7 +20,7 @@
   padding-left: 0;
 
   /* visual */
-  background-image: linear-gradient(360deg, #747677 18px, #858a8C 18px);
+  background-image: linear-gradient(360deg, #747677 18px, #858a8c 18px);
   border-radius: 4px 0 0 4px;
 }
 
@@ -64,7 +64,7 @@
   height: 36px;
 
   /* visual */
-  background-image: linear-gradient(360deg, #747677 18px, #858a8C 18px);
+  background-image: linear-gradient(360deg, #747677 18px, #858a8c 18px);
   border-radius: 0 4px 4px 0;
 }
 

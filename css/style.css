@@ -1,6 +1,18 @@
 
 
 /* navigation */
+.main-nav {
+
+  /* box model */
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.nav-text {
+  visibility: hidden;
+}
 
 /* body */
 .main-section {
@@ -28,10 +40,44 @@
   background-position: bottom;
 }
 
+.hero-header {
+
+  /* box model */
+  width: 980px;
+  height: 104px;
+
+  /* visual */
+  background-image: url("../img/your_verse_title_medium.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .hero-subheader1 {
 
-  /* positioning */
-  margin-top: -58.7px;
+  /* box model */
+  width: 980px;
+  height: 82px;
+
+  /* visual */
+  background-image: url("../img/your_verse_subhead_medium.png");
+  background-repeat: no-repeat;
+}
+
+.hero-subheader2 {
+
+  /* box model */
+  margin-top: 40px;
+  width: 980px;
+  height: 31px;
+
+  /* visual */
+  background-image: url("../img/cta_your_verse_27pt.png");
+  background-position: top;
+}
+
+.hero-subheader2:hover{
+  background-image: url("../img/cta_your_verse_27pt.png");
+  background-position: bottom;
 }
 
 .promo-section {

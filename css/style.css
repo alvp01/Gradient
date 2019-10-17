@@ -8,10 +8,78 @@
   display: flex;
   position: absolute;
   justify-content: center;
+  align-items: center;
+
 }
 
-.nav-text {
-  visibility: hidden;
+.nav-links {
+
+  /* box model */
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 800px;
+  height: 36px;
+  justify-content: flex-start;
+  padding-left: 0;
+
+  /* visual */
+  background-image: linear-gradient(360deg, #747677 18px, #858A8C 18px);
+  border-radius: 4px 0 0 4px;
+
+}
+
+.nav-elem{
+
+  /* box model */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106px;
+  height: 36px;
+
+  /* visual */
+  border-right: 0.5px solid;
+  border-color: #8c8c8c;
+}
+
+.nav-elem:hover {
+
+  /* visual */
+  background-image: linear-gradient(360deg, #333333 18px, #737373 18px);
+  cursor: pointer;
+}
+
+.apple img {
+  width: 26px;
+  height: 26px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: San Francisco;
+}
+
+.search-bar {
+
+  /* box model */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 36px;
+
+  /* visual */
+  background-image: linear-gradient(360deg, #747677 18px, #858A8C 18px);
+  border-radius: 0 4px 4px 0;
+}
+
+.search-bar input[type="search"] {
+  display: block;
+  background-color: transparent;
+  width: 100px;
+  border-radius: 12px;
 }
 
 /* body */
@@ -50,6 +118,7 @@
   background-image: url("../img/your_verse_title_medium.png");
   background-repeat: no-repeat;
   background-position: top;
+  cursor: pointer;
 }
 
 .hero-subheader1 {
@@ -61,6 +130,7 @@
   /* visual */
   background-image: url("../img/your_verse_subhead_medium.png");
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .hero-subheader2 {

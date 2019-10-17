@@ -1,5 +1,4 @@
 
-
 /* navigation */
 .main-nav {
   /* box model */
@@ -8,7 +7,6 @@
   position: absolute;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav-links {
@@ -22,12 +20,11 @@
   padding-left: 0;
 
   /* visual */
-  background-image: linear-gradient(360deg, #747677 18px, #858A8C 18px);
+  background-image: linear-gradient(360deg, #747677 18px, #858a8C 18px);
   border-radius: 4px 0 0 4px;
-
 }
 
-.nav-elem{
+.nav-elem {
   /* box model */
   display: flex;
   justify-content: center;
@@ -42,7 +39,7 @@
 
 .nav-elem:hover {
   /* visual */
-  background-image: linear-gradient(360deg, #333333 18px, #737373 18px);
+  background-image: linear-gradient(360deg, #333 18px, #737373 18px);
   cursor: pointer;
 }
 
@@ -56,7 +53,6 @@
   /* visual */
   text-decoration: none;
   color: white;
-  font-family: San Francisco;
 }
 
 .search-bar {
@@ -68,7 +64,7 @@
   height: 36px;
 
   /* visual */
-  background-image: linear-gradient(360deg, #747677 18px, #858A8C 18px);
+  background-image: linear-gradient(360deg, #747677 18px, #858a8C 18px);
   border-radius: 0 4px 4px 0;
 }
 
@@ -138,7 +134,7 @@
   background-position: top;
 }
 
-.hero-subheader2:hover{
+.hero-subheader2:hover {
   /* visual */
   background-image: url("../img/cta_your_verse_27pt.png");
   background-position: bottom;
@@ -146,7 +142,7 @@
 
 .promo-section {
   /* box model */
-   width: 1440px;
+  width: 1440px;
 }
 
 .promos {
@@ -154,7 +150,6 @@
   display: flex;
   flex-direction: row;
   margin-left: -40px;
-  margin-top: 0px;
 
   /* visual */
   list-style: none;
@@ -181,6 +176,7 @@ footer {
   text-align: left;
   margin-right: 10px;
 }
+
 .footer-right {
   /* model box */
   align-items: flex-start;

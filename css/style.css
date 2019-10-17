@@ -171,3 +171,30 @@
 .promos img {
   width: 360px;
 }
+
+/* Footer */
+footer {
+  /* box model */
+  width: 1440px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.footer-left {
+  align-items: flex-end;
+  text-align: left;
+  margin-right: 5px;
+}
+.footer-right {
+  align-items: flex-start;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: grey;
+}

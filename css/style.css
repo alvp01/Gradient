@@ -1,0 +1,57 @@
+
+
+/* navigation */
+
+/* body */
+.main-section {
+
+  /* box model */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section {
+
+  /* box model */
+  height: 700px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  /* visual */
+  background: url("../img/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.hero-subheader1 {
+
+  /* positioning */
+  margin-top: -58.7px;
+}
+
+.promo-section {
+
+  /* box model */
+   width: 1440px;
+}
+
+.promos {
+
+  /* box model */
+  display: flex;
+  flex-direction: row;
+  margin-left: -40px;
+  margin-top: 0px;
+
+  /* visual */
+  list-style: none;
+}
+
+.promos img {
+  width: 360px;
+}
